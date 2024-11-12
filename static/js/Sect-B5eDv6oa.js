@@ -1,2 +1,0 @@
-import{a as s}from"./roleApi-BsdKlQpp.js";import{_ as a,r as o,o as c,t as n,c as r,g as i}from"./index-PFhGpLVs.js";import"./axios-DJuMnALa.js";const p={name:"Sect",setup(){const t=o({});c(async()=>{await e()});const e=async()=>{await s.getInfo({uid:"1"})};return{...n(t)}}},_={class:"sect"};function d(t,e,f,m,u,l){return i(),r("div",_,"宗门")}const x=a(p,[["render",d],["__scopeId","data-v-d3e54d6c"]]);export{x as default};
-//# sourceMappingURL=Sect-B5eDv6oa.js.map
