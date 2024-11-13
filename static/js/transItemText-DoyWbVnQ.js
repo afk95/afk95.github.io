@@ -1,0 +1,2 @@
+const s=a=>{let n=[];for(let t=0;t<a.length;++t){let e=a[t];switch(a[t].name){case"waigong":e.nameText="外攻";break;case"neigong":e.nameText="内攻";break;case"waifang":e.nameText="外防";break;case"neifang":e.nameText="内防";break;case"huixin":e.nameText="会心";break;case"huishang":e.nameText="会伤";break;case"renxing":e.nameText="韧性";break}n.push(e)}return n},r=a=>({0:"道具",1:"任务",2:"武器",3:"防具",4:"饰品"})[a];export{r as a,s as t};
+//# sourceMappingURL=transItemText-DoyWbVnQ.js.map
