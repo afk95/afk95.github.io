@@ -1,0 +1,2 @@
+const s=a=>{let t=[];a=JSON.parse(a);for(let n=0;n<a.length;++n){let e=a[n];switch(a[n].name){case"waigong":e.nameText="外攻";break;case"neigong":e.nameText="内攻";break;case"waifang":e.nameText="外防";break;case"neifang":e.nameText="内防";break;case"huixin":e.nameText="会心";break;case"huishang":e.nameText="会伤";break;case"renxing":e.nameText="韧性";break}t.push(e)}return t},r=a=>({0:"道具",1:"任务",2:"武器",3:"防具",4:"饰品"})[a];export{r as a,s as t};
+//# sourceMappingURL=transItemText-Cw-WASnD.js.map
